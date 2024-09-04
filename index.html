@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>بروفايل خاص بي</title>
+    <style>
+        body {
+            background-color: #121212;
+            color: white;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+
+        .banner {
+            background-image: url(''); /* ضع رابط صورة البنر هنا */
+            height: 200px;
+            background-size: cover;
+            background-position: center;
+            margin-bottom: 20px;
+        }
+
+        .logo {
+            width: 150px;
+            height: 150px;
+            margin: 0 auto;
+            display: block;
+        }
+
+        .glowing-text {
+            font-size: 24px;
+            text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff;
+            color: #ffffff;
+            border: 2px solid #000000;
+            padding: 10px;
+            display: inline-block;
+            margin: 20px 0;
+        }
+
+        .glowing-text:hover {
+            color: #000000;
+            background-color: #ffffff;
+        }
+
+        .social-links img {
+            width: 50px;
+            height: 50px;
+            margin: 0 10px;
+            transition: transform 0.3s;
+        }
+
+        .social-links img:hover {
+            transform: scale(1.2);
+        }
+
+        .btn {
+            background-color: #ff5722;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+
+        .btn:hover {
+            background-color: #e64a19;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="banner"></div>
+
+    <img src="https://cdn.discordapp.com/attachments/1280230827455676416/1280899703785128017/download_6.jfif?ex=66d9c24f&is=66d870cf&hm=b73eeca8af6d94a462ce5c8c966c4123a6fd6a6bf51e5ed498c187f7bcfdc515&" alt="Logo" class="logo"> 
+
+    <div class="glowing-text" id="glowingText">
+       Hello! My name is Smith, and I work in programming. I love diving into the world of technology and solving complex problems through coding. My passion drives me to constantly learn more and develop innovative solutions that help improve people's lives or make their work easier. Whether it's building websites, applications, or bots, I put all my effort into delivering the best possible outcome.
+    </div>
+
+    <button class="btn" onclick="changeText()">للترجمة اضغط هنا</button>
+
+    <div class="social-links">
+        <a href="discord.com/users/_9z3" target="_blank">
+            <img src="https://cdn.discordapp.com/attachments/1280230827455676416/1280902887983022096/Download_Discord_Logo_Icons_editorial_collection-removebg-preview.png?ex=66d9c546&is=66d873c6&hm=a1477eaf160b46c485ce4f137fc6e9b7f57d155b938359904af8ab3e2112eed7&" alt="Discord"> <!-- ضع رابط صورة شعار ديسكورد هنا -->
+        </a>
+        <a href="https://www.tiktok.com/@MS4wLjABAAAAf4v6qtymmQdLBpWvuTA2ipCyKsfkSEtez8iSw1VNKXFdl_MN12Ey5Jd9kF2486oD?is_from_webapp=1&sender_device=pc" target="_blank">
+            <img src="https://cdn.discordapp.com/attachments/1280230827455676416/1280902873131122709/Real_TikTok_Logo-removebg-preview.png?ex=66d9c542&is=66d873c2&hm=a7197d2fb47931711d327aeac66c0677f9b67826efb859a35e8bdb0e0d9f8ac5&" alt="TikTok"> <!-- ضع رابط صورة شعار تيكتوك هنا -->
+        </a>
+        <a href= "instagram.com/xqilm0" target="_blank">
+            <img src="https://cdn.discordapp.com/attachments/1280230827455676416/1280902855204667522/Instagram_________PNG_________-_Pngtree-removebg-preview.png?ex=66d9c53e&is=66d873be&hm=aebee054b4e275cb81262c5d8a6ae14baa697f8c609ec8a1facb5c35af566786&" alt="Instagram"> <!-- ضع رابط صورة شعار انستغرام هنا -->
+        </a>
+        <a href="https://github.com/dhiaaoo77" target="_blank">
+            <img src="https://cdn.discordapp.com/attachments/1280230827455676416/1280902914143027200/Github_Logo_PNG_Vector__SVG__Free_Download-removebg-preview.png?ex=66d9c54c&is=66d873cc&hm=5aa2e8cf5e650bf2bb78f94e072b0a4072dd3eefc17693f0ff90241341f72862&" alt="GitHub"> <!-- ضع رابط صورة شعار قيت هوب هنا -->
+        </a>
+    </div>
+
+    <script>
+        function changeText() {
+            document.getElementById("glowingText").innerHTML = "مرحبًا! اسمي سميث، وأعمل في مجال البرمجة. أحب التعمق في عالم التكنولوجيا وحل المشكلات المعقدة من خلال كتابة الأكواد. شغفي يدفعني دائمًا لتعلم المزيد وتطوير حلول مبتكرة تساعد في تحسين حياة الناس أو تسهيل أعمالهم. سواء كان الأمر يتعلق ببناء مواقع إلكترونية، تطبيقات، أو بوتات، فإنني أضع كل جهدي في تقديم أفضل ما يمكن.";
+        }
+    </script>
+
+</body>
+</html>
+
